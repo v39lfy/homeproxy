@@ -637,7 +637,7 @@ return view.extend({
 		so = ss.taboption('field_other', form.ListValue, 'network', _('Network'));
 		so.value('tcp', _('TCP'));
 		so.value('udp', _('UDP'));
-		so.value('icmp', _('TCP'));
+		so.value('icmp', _('ICMP'));
 		so.value('', _('Both'));
 
 		so = ss.taboption('field_other', form.DynamicList, 'user', _('User'),
