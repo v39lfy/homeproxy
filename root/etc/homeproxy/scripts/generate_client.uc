@@ -434,6 +434,7 @@ config.dns = {
 	rules: [],
 	strategy: dns_default_strategy,
 	disable_cache: strToBool(dns_disable_cache),
+	reverse_mapping: true,
 	disable_expire: strToBool(dns_disable_cache_expire),
 	independent_cache: strToBool(dns_independent_cache),
 	client_subnet: dns_client_subnet
